@@ -13,6 +13,23 @@ Takeaway Challenge
        ':..:'                ':..:'
 
  ```
+ PROGRAM OVERVIEW
+ ----------------
+ This program models a takeaway restaurant - dishes, prices, billing & order confirmation.
+
+ Features:
+
+ Allows customers to view the menu, listing available dishes & prices.
+ Allows customers to select some number of available dishes.
+ Allows customers to verify that their order and bill is correct.
+ Allows customer to receive a text confirmation after completing their order.
+
+ This program was developed in ruby 2.5.0
+
+ Customer communications provided by Twillo 
+
+ TDD with RSpec.
+
 
 Instructions
 -------
