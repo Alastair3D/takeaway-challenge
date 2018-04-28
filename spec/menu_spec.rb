@@ -2,9 +2,9 @@ require 'menu'
 
 describe Menu do
 
-  context '#Menu', :menu do
-    it 'Returns an empty array upon initialization' do
-      expect(subject.list).to be_empty
+  context 'Menu', :menu do
+    it 'Returns a list of available dishes with prices' do
+      expect(subject.menu.length).to eq 5
     end
   end
 end
